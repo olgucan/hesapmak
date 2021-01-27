@@ -1,0 +1,320 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'hm_arayuz.ui'
+#
+# Created by: PyQt5 UI code generator 5.9.2
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_MainWindow(object):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName("MainWindow")
+        MainWindow.resize(241, 363)
+        self.centralwidget = QtWidgets.QWidget(MainWindow)
+        self.centralwidget.setObjectName("centralwidget")
+        self.label = QtWidgets.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(0, 0, 241, 61))
+        self.label.setStyleSheet("QLabel{\n"
+"background-color: rgb(255, 255, 255);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"}")
+        self.label.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
+        self.label.setObjectName("label")
+        self.pushButton_temizle = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_temizle.setGeometry(QtCore.QRect(0, 61, 61, 61))
+        self.pushButton_temizle.setStyleSheet("QPushButton{\n"
+"background-color: rgb(255, 170, 127);\n"
+"    color: rgb(85, 85, 0);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"}\n"
+"QPushButton:pressed{\n"
+"color: rgb(255, 170, 127);\n"
+"    background-color: rgb(85, 85, 0);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"}")
+        self.pushButton_temizle.setObjectName("pushButton_temizle")
+        self.pushButton_isaret = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_isaret.setGeometry(QtCore.QRect(60, 61, 61, 61))
+        self.pushButton_isaret.setStyleSheet("QPushButton{\n"
+"background-color: rgb(255, 170, 127);\n"
+"    color: rgb(85, 85, 0);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"}\n"
+"QPushButton:pressed{\n"
+"color: rgb(255, 170, 127);\n"
+"    background-color: rgb(85, 85, 0);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"}")
+        self.pushButton_isaret.setObjectName("pushButton_isaret")
+        self.pushButton_bol = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_bol.setGeometry(QtCore.QRect(180, 61, 61, 61))
+        self.pushButton_bol.setStyleSheet("QPushButton{\n"
+"background-color: rgb(85, 85, 255);\n"
+"    color: rgb(255, 255, 255);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"}\n"
+"QPushButton:pressed{\n"
+"color: rgb(85, 85, 255);\n"
+"    background-color: rgb(255, 255, 255);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"}")
+        self.pushButton_bol.setObjectName("pushButton_bol")
+        self.pushButton_yuzde = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_yuzde.setGeometry(QtCore.QRect(120, 61, 61, 61))
+        self.pushButton_yuzde.setStyleSheet("QPushButton{\n"
+"background-color: rgb(255, 170, 127);\n"
+"    color: rgb(85, 85, 0);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"}\n"
+"QPushButton:pressed{\n"
+"color: rgb(255, 170, 127);\n"
+"    background-color: rgb(85, 85, 0);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"}")
+        self.pushButton_yuzde.setObjectName("pushButton_yuzde")
+        self.pushButton_8 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_8.setGeometry(QtCore.QRect(60, 120, 61, 61))
+        self.pushButton_8.setObjectName("pushButton_8")
+        self.pushButton_7 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_7.setGeometry(QtCore.QRect(0, 120, 61, 61))
+        self.pushButton_7.setObjectName("pushButton_7")
+        self.pushButton_carp = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_carp.setGeometry(QtCore.QRect(180, 120, 61, 61))
+        self.pushButton_carp.setStyleSheet("QPushButton{\n"
+"background-color: rgb(85, 85, 255);\n"
+"    color: rgb(255, 255, 255);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"}\n"
+"QPushButton:pressed{\n"
+"color: rgb(85, 85, 255);\n"
+"    background-color: rgb(255, 255, 255);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"}")
+        self.pushButton_carp.setObjectName("pushButton_carp")
+        self.pushButton_9 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_9.setGeometry(QtCore.QRect(120, 120, 61, 61))
+        self.pushButton_9.setObjectName("pushButton_9")
+        self.pushButton_arti = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_arti.setGeometry(QtCore.QRect(180, 239, 61, 61))
+        self.pushButton_arti.setStyleSheet("QPushButton{\n"
+"background-color: rgb(85, 85, 255);\n"
+"    color: rgb(255, 255, 255);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"}\n"
+"QPushButton:pressed{\n"
+"color: rgb(85, 85, 255);\n"
+"    background-color: rgb(255, 255, 255);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"}")
+        self.pushButton_arti.setObjectName("pushButton_arti")
+        self.pushButton_5 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_5.setGeometry(QtCore.QRect(60, 180, 61, 61))
+        self.pushButton_5.setObjectName("pushButton_5")
+        self.pushButton_4 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_4.setGeometry(QtCore.QRect(0, 180, 61, 61))
+        self.pushButton_4.setObjectName("pushButton_4")
+        self.pushButton_3 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_3.setGeometry(QtCore.QRect(120, 239, 61, 61))
+        self.pushButton_3.setObjectName("pushButton_3")
+        self.pushButton_eksi = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_eksi.setGeometry(QtCore.QRect(180, 180, 61, 61))
+        self.pushButton_eksi.setStyleSheet("QPushButton{\n"
+"background-color: rgb(85, 85, 255);\n"
+"    color: rgb(255, 255, 255);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"}\n"
+"QPushButton:pressed{\n"
+"color: rgb(85, 85, 255);\n"
+"    background-color: rgb(255, 255, 255);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"}")
+        self.pushButton_eksi.setObjectName("pushButton_eksi")
+        self.pushButton_1 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_1.setGeometry(QtCore.QRect(0, 239, 61, 61))
+        self.pushButton_1.setObjectName("pushButton_1")
+        self.pushButton_2 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_2.setGeometry(QtCore.QRect(60, 239, 61, 61))
+        self.pushButton_2.setObjectName("pushButton_2")
+        self.pushButton_6 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_6.setGeometry(QtCore.QRect(120, 180, 61, 61))
+        self.pushButton_6.setObjectName("pushButton_6")
+        self.pushButton_esittir = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_esittir.setGeometry(QtCore.QRect(180, 300, 61, 61))
+        self.pushButton_esittir.setStyleSheet("QPushButton{\n"
+"background-color: rgb(85, 85, 255);\n"
+"    color: rgb(255, 255, 255);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"}\n"
+"QPushButton:pressed{\n"
+"color: rgb(85, 85, 255);\n"
+"    background-color: rgb(255, 255, 255);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"}")
+        self.pushButton_esittir.setObjectName("pushButton_esittir")
+        self.pushButton_nokta = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_nokta.setGeometry(QtCore.QRect(120, 300, 61, 61))
+        self.pushButton_nokta.setStyleSheet("QPushButton{\n"
+"background-color: rgb(255, 170, 127);\n"
+"    color: rgb(85, 85, 0);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"}\n"
+"QPushButton:pressed{\n"
+"color: rgb(255, 170, 127);\n"
+"    background-color: rgb(85, 85, 0);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"}")
+        self.pushButton_nokta.setObjectName("pushButton_nokta")
+        self.pushButton_0 = QtWidgets.QPushButton(self.centralwidget)
+        self.pushButton_0.setGeometry(QtCore.QRect(0, 300, 121, 61))
+        self.pushButton_0.setStyleSheet("QPushButton{\n"
+"background-color: rgb(85, 0, 0);\n"
+"    color: rgb(255, 255, 127);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"}\n"
+"QPushButton:pressed{\n"
+"color: rgb(85, 0, 0);\n"
+"    background-color: rgb(255, 255, 127);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"\n"
+"}")
+        self.pushButton_0.setObjectName("pushButton_0")
+        MainWindow.setCentralWidget(self.centralwidget)
+
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def retranslateUi(self, MainWindow):
+        _translate = QtCore.QCoreApplication.translate
+        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        self.label.setText(_translate("MainWindow", "0"))
+        self.pushButton_temizle.setText(_translate("MainWindow", "C"))
+        self.pushButton_isaret.setText(_translate("MainWindow", "+/-"))
+        self.pushButton_bol.setText(_translate("MainWindow", "/"))
+        self.pushButton_yuzde.setText(_translate("MainWindow", "%"))
+        self.pushButton_8.setStyleSheet(_translate("MainWindow", "QPushButton{\n"
+"background-color: rgb(85, 0, 0);\n"
+"    color: rgb(255, 255, 127);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"}\n"
+"QPushButton:pressed{\n"
+"color: rgb(85, 0, 0);\n"
+"    background-color: rgb(255, 255, 127);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"\n"
+"}"))
+        self.pushButton_8.setText(_translate("MainWindow", "8"))
+        self.pushButton_7.setStyleSheet(_translate("MainWindow", "QPushButton{\n"
+"background-color: rgb(85, 0, 0);\n"
+"    color: rgb(255, 255, 127);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"}\n"
+"QPushButton:pressed{\n"
+"color: rgb(85, 0, 0);\n"
+"    background-color: rgb(255, 255, 127);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"\n"
+"}"))
+        self.pushButton_7.setText(_translate("MainWindow", "7"))
+        self.pushButton_carp.setText(_translate("MainWindow", "X"))
+        self.pushButton_9.setStyleSheet(_translate("MainWindow", "QPushButton{\n"
+"background-color: rgb(85, 0, 0);\n"
+"    color: rgb(255, 255, 127);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"}\n"
+"QPushButton:pressed{\n"
+"color: rgb(85, 0, 0);\n"
+"    background-color: rgb(255, 255, 127);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"\n"
+"}"))
+        self.pushButton_9.setText(_translate("MainWindow", "9"))
+        self.pushButton_arti.setText(_translate("MainWindow", "+"))
+        self.pushButton_5.setStyleSheet(_translate("MainWindow", "QPushButton{\n"
+"background-color: rgb(85, 0, 0);\n"
+"    color: rgb(255, 255, 127);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"}\n"
+"QPushButton:pressed{\n"
+"color: rgb(85, 0, 0);\n"
+"    background-color: rgb(255, 255, 127);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"\n"
+"}"))
+        self.pushButton_5.setText(_translate("MainWindow", "5"))
+        self.pushButton_4.setStyleSheet(_translate("MainWindow", "QPushButton{\n"
+"background-color: rgb(85, 0, 0);\n"
+"    color: rgb(255, 255, 127);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"}\n"
+"QPushButton:pressed{\n"
+"color: rgb(85, 0, 0);\n"
+"    background-color: rgb(255, 255, 127);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"\n"
+"}"))
+        self.pushButton_4.setText(_translate("MainWindow", "4"))
+        self.pushButton_3.setStyleSheet(_translate("MainWindow", "QPushButton{\n"
+"background-color: rgb(85, 0, 0);\n"
+"    color: rgb(255, 255, 127);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"}\n"
+"QPushButton:pressed{\n"
+"color: rgb(85, 0, 0);\n"
+"    background-color: rgb(255, 255, 127);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"\n"
+"}"))
+        self.pushButton_3.setText(_translate("MainWindow", "3"))
+        self.pushButton_eksi.setText(_translate("MainWindow", "-"))
+        self.pushButton_1.setStyleSheet(_translate("MainWindow", "QPushButton{\n"
+"background-color: rgb(85, 0, 0);\n"
+"    color: rgb(255, 255, 127);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"}\n"
+"QPushButton:pressed{\n"
+"color: rgb(85, 0, 0);\n"
+"    background-color: rgb(255, 255, 127);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"\n"
+"}"))
+        self.pushButton_1.setText(_translate("MainWindow", "1"))
+        self.pushButton_2.setStyleSheet(_translate("MainWindow", "QPushButton{\n"
+"background-color: rgb(85, 0, 0);\n"
+"    color: rgb(255, 255, 127);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"}\n"
+"QPushButton:pressed{\n"
+"color: rgb(85, 0, 0);\n"
+"    background-color: rgb(255, 255, 127);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"\n"
+"}"))
+        self.pushButton_2.setText(_translate("MainWindow", "2"))
+        self.pushButton_6.setStyleSheet(_translate("MainWindow", "QPushButton{\n"
+"background-color: rgb(85, 0, 0);\n"
+"    color: rgb(255, 255, 127);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"}\n"
+"QPushButton:pressed{\n"
+"color: rgb(85, 0, 0);\n"
+"    background-color: rgb(255, 255, 127);\n"
+"    font: 75 18pt \"MS Shell Dlg 2\";\n"
+"\n"
+"}"))
+        self.pushButton_6.setText(_translate("MainWindow", "6"))
+        self.pushButton_esittir.setText(_translate("MainWindow", "="))
+        self.pushButton_nokta.setText(_translate("MainWindow", "."))
+        self.pushButton_0.setText(_translate("MainWindow", "0"))
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    MainWindow = QtWidgets.QMainWindow()
+    ui = Ui_MainWindow()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
+    sys.exit(app.exec_())
+
