@@ -1,0 +1,3 @@
+# hesapmak
+vektorelhesapmak
+aaaaolgu
